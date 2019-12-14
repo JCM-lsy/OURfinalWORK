@@ -1,0 +1,52 @@
+{
+  "tabBar": {
+    "color": "#191970",
+    "selectedColor": "#191970",
+    "backgroundColor": "#87CEFA",
+    "borderStyle": "white",
+    "list": [
+      {
+        "selectedIconPath": "images/1.png",
+        "iconPath": "images/1.png",
+        "pagePath": "pages/inside/inside",
+        "text": "此刻天气"
+      },
+      {
+        "selectedIconPath": "images/2.png",
+        "iconPath": "images/2.png",
+        "pagePath": "pages/index/index",
+        "text": "养生贴士"
+      },
+      {
+        "selectedIconPath": "images/3.png",
+        "iconPath": "images/3.png",
+        "pagePath": "pages/tips/tips",
+        "text": "我的工具"
+      }
+    ]
+  },
+  "pages": [
+    "pages/inside/inside",
+    "pages/wifi_station/tianqi/tianqi",
+    "pages/tips/tips",
+    "pages/index/index",
+    "pages/text/text",
+    "pages/weather/weather",
+    "pages/geocoding/geocoding",
+    "pages/play/play",
+    "pages/logs/logs",
+    "pages/setting/setting",
+    "pages/nextnote/nextnote",
+    "pages/urgency/urgency",
+    "pages/ulogs/ulogs"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#87CEFA",
+    "navigationBarTitleText": "风云五号",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}
